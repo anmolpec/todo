@@ -87,7 +87,7 @@ body{
     width: fit-content;
     background-color: rgb(255, 255, 255);
     color: rgb(26, 26, 26);
-    background: url(../dist/cream_dust.png) repeat 0 0;
+    background: url(./dist/cream_dust.png) repeat 0 0;
 
 }
 
