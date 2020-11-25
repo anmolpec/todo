@@ -65,7 +65,7 @@ body{
     align-items: center;
     opacity: 100%;
     background-color: rgba(110, 184, 253, 0.418);
-    background: url(/dist/cream_dust.png) repeat 0 0;
+    background: url(/todo/dist/cream_dust.png) repeat 0 0;
 
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.61);
     /* border-radius: 30px; */
