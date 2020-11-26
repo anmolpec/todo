@@ -18,8 +18,10 @@ let priorityFilter= function(){
         switch(priority){
             case 0: return true;
                 
-            case 1: if(listElement.datetime.toDateString()==currentDate.toDateString())
-                        return true;
+            case 1: if(listElement.datetime!="Invalid Date"){
+                        if(listElement.datetime.toDateString()==currentDate.toDateString())
+                            return true;
+                    }
                     else return false;
 
             case 2: if(listElement.datetime<add(currentDate, {years:0,months:0,weeks:1,days:0}))
